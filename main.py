@@ -4,7 +4,7 @@ from itertools import zip_longest
 from bs4 import BeautifulSoup as bs4
 url = "https://in.linkedin.com/jobs/search?keywords="
 
-key = ["HTML","CSS","JAVASCRIPT","PYTHON","JAVA","GO","BASH","data","software-developement-intern","networking-intern","machinelearning-datascience-intern"]
+key = ["HTML","CSS","JAVASCRIPT","PYTHON","JAVA","GO","BASH","data","software-developement-intern","networking-intern","machinelearning-datascience-intern","Web developer", "front end developer", "back end developer", "ui/ux designer", "software tester", "data analyst", "data architect", "cloud engineer", "cloud architect", "network administrator", "network engineer", "network architect", "data scientist","Systems","Designing", "testing admin ","graphic designers","content writers","digital","social media"]
 data={}
 for i in key:
     data_url=url+i
