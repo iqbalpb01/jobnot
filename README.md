@@ -21,6 +21,10 @@ env\Script\activate
 ```
 ## Enviroment for linux
 
+```
+source bin/activate
+```
+
 ## Install the requirements python package by running the command
 
 ```
