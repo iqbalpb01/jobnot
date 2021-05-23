@@ -1,25 +1,52 @@
 # JBONOT DOCUMENTATION 
 
-### Step 1:
 
-After typing commands first you need to install python on you system then follow the instructions 
-Clone the git into a file by
-git clone <repo_link>
-cd filename
-For setting environment run the command below 
+## Clone into system 
+
+```
+git clone https://github.com/iqbalpb01/jobnot.git
+```
+## For setting environment run the command
+
+```
 python -m venv env
-To set environment for Windows
+```
+
+
+
+## Enviroment for windows
+
+```
 env\Script\activate
-To set environment for Linux:
+```
+## Enviroment for linux
 
-### Step 2:
+```
+source bin/activate
+```
 
-Install the requirements python package by running the command 
+## Install the requirements python package by running the command
+
+```
 pip install -r requirement.txt
-Then it will install all the requirements for this project 
-Note: Before running the command ensure that the cmd/terminal should be in environment mode else go to step-1 and run the commands
+```
 
-### Step 3:
+## Run main file by the command 
 
-Run main.py by  the command  python main.py
-So it will get the data and then it will create a new file called out.csv now you can open the out.csv file so there it shows many links accounting from the scaped result   
+```
+python main.py
+```
+
+## It will get the data then it create a new file called out.csv now you can open out.csv file to view the links 
+
+![WhatsApp Image 2021-05-23 at 14 34 49](https://user-images.githubusercontent.com/84258889/119254520-69f42180-bbd4-11eb-801e-1402e85aa6da.jpeg)
+
+
+## Contributors
+
+[Muhammed Iqbal P.B
+](https://github.com/iqbalpb01)
+
+[Abin Joseph](https://github.com/abjs)
+
+[Vishnu S](https://github.com/vishnu510412)
